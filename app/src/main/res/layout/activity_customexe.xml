@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customexe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:shadowColor="#47916E"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="@string/fill_the_answer_of_the_question_ask_below"
+                android:textSize="34sp"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="59dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:shadowColor="#47916E"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="@string/what_exercise_do_u_like_more"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:shadowColor="#47916E"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="@string/choose_your_gender"
+                android:textSize="28sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/female"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:shadowColor="#47916E"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="@string/what_is_you_age"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:textColorHint="#A1887F" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:shadowColor="#47916E"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="@string/select_categories_of_exercise_you_want_to_target"
+                android:textSize="28sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abs"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/full"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leg"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/arm"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/button" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

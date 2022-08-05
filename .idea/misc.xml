@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/backgroundcrop.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/divider.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/items.xml" value="0.197" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1214859437751004" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.141796875" />
+        <entry key="app/src/main/res/layout/activity_abs1.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_alarm.xml" value="0.2208029197080292" />
+        <entry key="app/src/main/res/layout/activity_arm1.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_bmi.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_calender.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_customexe.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_customexe1.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_destination.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_exeabs.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_exearm.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_exefull.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_exelegs.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_exerciseview.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_exerciseviewfullbody.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_fat.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_fetch.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_fullbody1.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_item.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_items.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_legs1.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_loginpage.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_mr.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_rate.xml" value="0.1734375" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_sqldata.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_tips.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_upload.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/divider.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item1.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/items.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

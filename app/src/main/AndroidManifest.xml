@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Becomefit">
+        <activity
+            android:name=".fetch"
+            android:exported="false" />
+        <activity
+            android:name=".sqldata"
+            android:exported="false" />
+        <activity
+            android:name=".customexe1"
+            android:exported="false" />
+        <activity
+            android:name=".customexe"
+            android:exported="false" />
+        <activity
+            android:name=".alarm"
+            android:exported="false" />
+        <activity
+            android:name=".arm1"
+            android:exported="false" />
+        <activity
+            android:name=".legs1"
+            android:exported="false" />
+        <activity
+            android:name=".fullbody1"
+            android:exported="false" />
+        <activity
+            android:name=".abs1"
+            android:exported="false" />
+        <activity
+            android:name=".exearm"
+            android:exported="false" />
+        <activity
+            android:name=".exelegs"
+            android:exported="false" />
+        <activity
+            android:name=".exeabs"
+            android:exported="false" />
+        <activity
+            android:name=".tips"
+            android:exported="false" />
+        <activity
+            android:name=".rate"
+            android:exported="false" />
+        <activity
+            android:name=".mr"
+            android:exported="false" />
+        <activity
+            android:name=".bmi"
+            android:exported="false" />
+        <activity
+            android:name=".fat"
+            android:exported="false" />
+        <activity
+            android:name=".exefull"
+            android:exported="false" />
+        <activity
+            android:name=".upload"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlertReceiver" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693233271251",
+    "project_id": "becomefit-d1dda",
+    "storage_bucket": "becomefit-d1dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693233271251:android:d6f90f587e0ff8c6d2ef26",
+        "android_client_info": {
+          "package_name": "com.example.becomefit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693233271251-pvmpfud276biqmgeoa1dvb3msql9cl8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYligFD_ifzrqQwVk04sOjX-JdLQfyoOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693233271251-pvmpfud276biqmgeoa1dvb3msql9cl8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

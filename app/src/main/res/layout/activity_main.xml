@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="418dp"
+        android:layout_height="77dp"
+        android:background="#DCD1D1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#BC9393"
+            android:backgroundTint="#BF7373"
+            android:gravity="bottom|center_horizontal"
+            android:shadowColor="#BD7F7F"
+            android:text="@string/home"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#02000B" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#DDBEBE"
+            android:gravity="bottom|center_horizontal"
+            android:shadowColor="#AE6060"
+            android:text="@string/custome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#100F12" />
+
+        <Button
+            android:id="@+id/button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#DDBEBE"
+            android:gravity="bottom|center_horizontal"
+            android:shadowColor="#AE6060"
+            android:text="@string/setting"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#0D0D0E" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="422dp"
+        android:layout_height="659dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/scrollbar"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/abs"
+                android:scaleType="centerCrop"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                app:srcCompat="@drawable/pack" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/full"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fulll" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/legs"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/leg" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/arms"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/arm"
+                tools:ignore="ImageContrastCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
